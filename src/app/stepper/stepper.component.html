@@ -25,7 +25,7 @@
             min="07:00"
             max="20:00"
             value="07:00"
-            step="1800"
+            step="900"
             formControlName="from"
           />
         </mat-form-field>
@@ -37,8 +37,8 @@
             placeholder="To"
             min="07:30"
             max="20:00"
-            value="07:30"
-            step="1800"
+            value="08:00"
+            step="900"
             formControlName="to"
           />
         </mat-form-field>
@@ -147,16 +147,20 @@
 
       <mat-step>
         <ng-template matStepLabel>Confirm your booking</ng-template>
-        <p class="summary-text">
-          Matt Smith booked Room 2 from 8:00 to 10:00 3/12/2020.
+        <p *ngIf="!formGroup.valid" class="warn-text">
+          Error! Invalid form data.
         </p>
-
+        <p *ngIf="isBooked" class="warn-text">
+          This room is already booked for the given time interval. Please select
+          another date/time/room.
+        </p>
         <div class="form-button-container">
           <button
             mat-stroked-button
             color="primary"
             class="form-button"
             type="submit"
+            [disabled]="!formGroup.valid"
           >
             Book room
           </button>
