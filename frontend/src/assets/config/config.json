@@ -1,0 +1,11 @@
+{
+  "logging": {
+    "consoleLogLevel": "INFO",
+    "remoteLogging": false
+  },
+  "cloud": {
+    "localFallbackUrls": {
+      "room-booking-app": "http://localhost:8080"
+    }
+  }
+}

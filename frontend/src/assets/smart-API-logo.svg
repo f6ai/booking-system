@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 35 35">
+  <defs>
+    <style>
+      .cls-1,.cls-2{fill:none;}.cls-2{clip-rule:evenodd;}.cls-3{clip-path:url(#clip-path);}.cls-4{isolation:isolate;}.cls-5{clip-path:url(#clip-path-2);}.cls-6{clip-path:url(#clip-path-3);}.cls-7{fill:#fff500;fill-rule:evenodd;}
+    </style>
+    <clipPath id="clip-path">
+      <rect width="34.998" height="35"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="35" height="35"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <polyline class="cls-2" points="0.002 0 34.996 0 34.998 35 0.002 35 0 0"/>
+    </clipPath>
+  </defs>
+  <title>SmartAPILogo</title>
+  <rect width="34.998" height="35"/>
+  <polygon class="cls-7" points="1.012 1.142 33.984 0.95 33.985 33.727 1.016 33.727 1.012 1.142"/>
+  <path
+    d="M17.492,22.01l10.527,10.52,4.115-4.117L21.608,17.9l2.048-2.046-.013-4.113,1.467-1.466.013,3.391,1.421,1.421,5.146-5.148,1.378,1.377a9.22,9.22,0,0,0-2.7-6.324,4.4,4.4,0,0,0-6.429-.165L18.975,9.792l1.239,1.237-2.741,2.727L14.74,11.027l1.235-1.235L11.007,4.823a4.4,4.4,0,0,0-6.428.165,9.091,9.091,0,0,0-2.651,6.32L3.277,9.957l4.988,5.131,1.282-1.432V10.271l1.614,1.466.069,4.09,2.091,2.054L2.906,28.307l4.142,4.13L17.492,22.01"/>
+
+</svg>
